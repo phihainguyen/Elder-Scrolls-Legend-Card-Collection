@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	background-image: radial-gradient(rgb(95, 77, 47), black);
+}
+.backgroundImg {
+	background-image: url("../../assets/background.jpeg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bodyContainer {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
+}
+
+/* Search input styling */
+.searchInput {
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+	padding: 5px 5px;
+	border: 2px solid gold;
+	font-family: 'Cinzel', serif;
+}
+.searchInput:focus {
+	border: 2px solid purple;
+}
+.searchInputContainer {
+	border: 1px solid rgba(49, 42, 42, 0);
+	width: 20vw;
+	height: 20px;
+	margin: 60px auto;
+	position: relative;
+}
+.searchIcon {
+	position: absolute;
+	top: 24px;
+	right: 8px;
+	width: 24px;
+	height: 24px;
+}
+
+.card {
+	flex: 25%;
+	justify-content: center;
+	max-width: 350px;
+	max-height: 600px;
+	border: 4px solid rgba(245, 184, 17, 0.562);
+	padding: 10px 0px;
+	margin: 10px;
+	box-shadow: 5px 5px 5px rgba(34, 32, 32, 0.76), -5px -5px 5px rgba(34, 32, 32, 0.76);
+	transition-duration: 0.75s;
+	overflow: hidden;
+}
+.cardContainer {
+	width: 100vw;
+	padding: 0;
+	margin: 1.6rem auto;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 30px;
+	text-align: center;
+	justify-content: center;
+}
+
+/* spinner animation when loading APIs*/
+.loadingSpinner {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	color: rgb(233, 216, 62);
+	animation: pulsing 1.2s linear infinite;
+	position: absolute;
+	top: 45%;
+	left: 45%;
+}
+.loadingSpinner:after {
+	content: " ";
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 8px;
+	border-radius: 50%;
+	border: 10px solid rgb(233, 216, 62);
+	border-color: rgb(233, 216, 62) transparent rgb(233, 216, 62) transparent;
+	animation: loadingSpinner 1s linear infinite;
+}
+@keyframes loadingSpinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes pulsing {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+/* Hovering over cardContainer of each class will animate the cards accordingly */
+
+.card:hover {
+	/* border: 1px solid rgba(90, 73, 27, 0.445); */
+	border: none;
+	box-shadow: none;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425) inset, -2px -2px 4px rgb(27, 26, 26) inset;
+}
+
+/* media query to make responsive displays on different devices */
+@media (max-width: 1600px) {
+	.card {
+		flex: 30%;
+		margin: 20px;
+	}
+	.searchInputContainer {
+		width: 30vw;
+	}
+}
+@media (max-width: 1340px) {
+	.card {
+		flex: 50%;
+	}
+	.backgroundImg {
+		display: none;
+	}
+	.searchInputContainer {
+		width: 40vw;
+	}
+}
+
+@media (max-width: 850px) {
+	.card {
+		flex: 100%;
+	}
+	.searchInputContainer {
+		width: 80vw;
+	}
+}

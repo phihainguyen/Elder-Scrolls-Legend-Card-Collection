@@ -9,8 +9,7 @@ In the terminal you will need to type in, git clone <url>, replacing the <url> w
   Either use
 [HTTPS](https://github.com/phihainguyen/Elder-Scrolls-Legend-Card-Collection.git)
 [SSH](git@github.com:phihainguyen/Elder-Scrolls-Legend-Card-Collection.git)
-  or
-[GithubCLI](gh repo clone phihainguyen/Elder-Scrolls-Legend-Card-Collection)
+  or GithubCLI
 
 ## Application Setup
 

@@ -7,80 +7,32 @@ Git version control
 Open your computer's terminal and cd into the directory you wish to clone this project's repository to.
 In the terminal you will need to type in, git clone <url>, replacing the <url> with the one of the cloning method found on the top right of the repository's github page.
   Either use
-[HTTPS](https://github.com/phihainguyen/Elder-Scrolls-Legend-Card-Collection.git)
-[SSH](git@github.com:phihainguyen/Elder-Scrolls-Legend-Card-Collection.git)
-  or GithubCLI
-
-## Application Setup
-
-## Build
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+[HTTPS](https://github.com/phihainguyen/Elder-Scrolls-Legend-Card-Collection.git), SSH, or GithubCLI
+  
+  Once cloned, open the repository in your code editor and cd into the repository's directory.
+  Once inside the correct directory run 'npm install'.
+  This will install all the necessary packages to run the application on your local computer.
+  
+### Application Setup `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000/Elder-Scrolls-Legend-Card-Collection) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Build
+[Elder Scrolls App](https://phihainguyen.github.io/Elder-Scrolls-Legend-Card-Collection/) is currently deployed on github.
+To deploy this on your own repository on your git hub page you will need to create a new repository and add this project to it on your Github account
+  [here](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line) is a great reference to doing that.
+  
+  You will also need to open the package.json file and change the value of homepage url to "https://<your-username>.github.io/<name-of-your-repository>" 
+  add commit and push up your new changes.
+  in the terminal run 'npm run deploy' and type in your credential if it is required.
+  Once done you can push up your code to your main branch
+  Navigating to your repository page on the upper right, click on settings and scrolling down to Github Pages, once your site is published you may click on the provided link to view the deployed app.
+  
+  
+  
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

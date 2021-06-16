@@ -1,7 +1,7 @@
 # Installation Requirement
-NodeJS.org
+NodeJS.org,
+React, 
 Git version control
-[Elder Scrolls App](https://phihainguyen.github.io/Elder-Scrolls-Legend-Card-Collection/).
 
 ## Installation
 Open your computer's terminal and cd into the directory you wish to clone this project's repository to.
@@ -15,17 +15,16 @@ In the terminal you will need to type in, git clone <url>, replacing the <url> w
   
 ### Application Setup `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000/Elder-Scrolls-Legend-Card-Collection) to view it in the browser.
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000/) to view it in the browser.
 
 The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 
 ## Build
 [Elder Scrolls App](https://phihainguyen.github.io/Elder-Scrolls-Legend-Card-Collection/) is currently deployed on github.
-To deploy this on your own repository on your git hub page you will need to create a new repository and add this project to it on your Github account
-  [here](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line) is a great reference to doing that.
+To deploy this on your own repository git hub page, you will need to create a new repository and add this project to it.
+  [Here](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line) is a great reference to doing that.
   
   You will also need to open the package.json file and change the value of homepage url to "https://<your-username>.github.io/<name-of-your-repository>" 
   add commit and push up your new changes.

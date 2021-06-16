@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Installation Requirement
+NodeJS.org
+Git version control
+[Elder Scrolls App](https://phihainguyen.github.io/Elder-Scrolls-Legend-Card-Collection/).
+
+## Installation
+Open your computer's terminal and cd into the directory you wish to clone this project's repository to.
+In the terminal you will need to type in, git clone <url>, replacing the <url> with the url found on the top right of the repository's github page.
+[HTTPS](https://github.com/phihainguyen/Elder-Scrolls-Legend-Card-Collection.git), [SSH](git@github.com:phihainguyen/Elder-Scrolls-Legend-Card-Collection.git), or [GithubCLI](gh repo clone phihainguyen/Elder-Scrolls-Legend-Card-Collection)
+
+## Application Setup
+
+## Build
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

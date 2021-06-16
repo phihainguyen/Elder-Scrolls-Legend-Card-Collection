@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Elder-Scrolls-Legend-Card-Collection/static/css/main.1da42fce.chunk.css",
+    "main.js": "/Elder-Scrolls-Legend-Card-Collection/static/js/main.62d7b073.chunk.js",
+    "main.js.map": "/Elder-Scrolls-Legend-Card-Collection/static/js/main.62d7b073.chunk.js.map",
+    "runtime-main.js": "/Elder-Scrolls-Legend-Card-Collection/static/js/runtime-main.90598245.js",
+    "runtime-main.js.map": "/Elder-Scrolls-Legend-Card-Collection/static/js/runtime-main.90598245.js.map",
+    "static/js/2.d38c8ab7.chunk.js": "/Elder-Scrolls-Legend-Card-Collection/static/js/2.d38c8ab7.chunk.js",
+    "static/js/2.d38c8ab7.chunk.js.map": "/Elder-Scrolls-Legend-Card-Collection/static/js/2.d38c8ab7.chunk.js.map",
+    "static/js/3.47571113.chunk.js": "/Elder-Scrolls-Legend-Card-Collection/static/js/3.47571113.chunk.js",
+    "static/js/3.47571113.chunk.js.map": "/Elder-Scrolls-Legend-Card-Collection/static/js/3.47571113.chunk.js.map",
+    "index.html": "/Elder-Scrolls-Legend-Card-Collection/index.html",
+    "static/css/main.1da42fce.chunk.css.map": "/Elder-Scrolls-Legend-Card-Collection/static/css/main.1da42fce.chunk.css.map",
+    "static/js/2.d38c8ab7.chunk.js.LICENSE.txt": "/Elder-Scrolls-Legend-Card-Collection/static/js/2.d38c8ab7.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/Elder-Scrolls-Legend-Card-Collection/static/media/background.6515c696.jpeg",
+    "static/media/title3.3aca7ae5.png": "/Elder-Scrolls-Legend-Card-Collection/static/media/title3.3aca7ae5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90598245.js",
+    "static/js/2.d38c8ab7.chunk.js",
+    "static/css/main.1da42fce.chunk.css",
+    "static/js/main.62d7b073.chunk.js"
+  ]
+}

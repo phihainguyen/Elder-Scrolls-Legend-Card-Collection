@@ -5,8 +5,12 @@ Git version control
 
 ## Installation
 Open your computer's terminal and cd into the directory you wish to clone this project's repository to.
-In the terminal you will need to type in, git clone <url>, replacing the <url> with the url found on the top right of the repository's github page.
-[HTTPS](https://github.com/phihainguyen/Elder-Scrolls-Legend-Card-Collection.git), [SSH](git@github.com:phihainguyen/Elder-Scrolls-Legend-Card-Collection.git), or [GithubCLI](gh repo clone phihainguyen/Elder-Scrolls-Legend-Card-Collection)
+In the terminal you will need to type in, git clone <url>, replacing the <url> with the one of the cloning method found on the top right of the repository's github page.
+  Either use
+[HTTPS](https://github.com/phihainguyen/Elder-Scrolls-Legend-Card-Collection.git)
+[SSH](git@github.com:phihainguyen/Elder-Scrolls-Legend-Card-Collection.git)
+  or
+[GithubCLI](gh repo clone phihainguyen/Elder-Scrolls-Legend-Card-Collection)
 
 ## Application Setup
 

@@ -5,7 +5,8 @@ import Card from '../Card/Card';
 import * as styles from './App.module.css';
 import searchIcon from '../../assets/searchIcon.png';
 import title from '../../assets/title3.png';
-import background from '../../assets/background.jpeg';
+import Footer from '../Footer/Footer';
+
 function App() {
 	const [ query, setQuery ] = useState('');
 	const [ pageNumber, setPageNumber ] = useState('');
@@ -89,6 +90,7 @@ function App() {
 						);
 					}
 				})}
+				<Footer />
 
 				<div>{error && 'ERROR... Something has gone wrong'}</div>
 			</div>

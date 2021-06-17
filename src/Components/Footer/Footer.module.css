@@ -1,0 +1,28 @@
+.footerContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 30px 0px;
+}
+.iconImg {
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+
+.footerContact {
+	color: white;
+	font-size: 1rem;
+	font-family: 'Cinzel', serif;
+}
+.footerContact span {
+	color: rgb(255, 230, 0);
+}
+.footerCopyright {
+	color: white;
+	font-size: 1rem;
+	font-family: 'Cinzel', serif;
+}
+.iconImg:hover {
+	transform: scale(1.2);
+}
